@@ -4,7 +4,7 @@
 #include "moderate_state.h"
 #include "publish_state.h"
 
-int main() {
+int main(int argc, char **argv) {
   Document document;
   DraftState draft_state;
   ModerateState moderate_state;
