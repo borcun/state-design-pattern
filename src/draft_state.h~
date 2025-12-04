@@ -1,0 +1,11 @@
+#include <iostream>
+#include "draft_state.h"
+
+void DraftState::render() {
+  std::cout << "rendering in draft state" << std::endl;
+  return;
+}
+
+void DraftState::publish() {
+
+}

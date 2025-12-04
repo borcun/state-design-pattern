@@ -1,0 +1,12 @@
+#include <iostream>
+#include "publish_state.h"
+
+void PublishState::render() {
+  std::cout << "rendering in publish state" << std::endl;
+  return;
+}
+
+void PublishState::publish() {
+  std::cout << "do nothing" << std::endl;
+  return;
+}

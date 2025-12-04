@@ -1,0 +1,13 @@
+#include "document.h"
+
+void Document::render() {
+
+}
+
+void Document::publish() {
+
+}
+
+void Document::changeState(State *state) {
+
+}
